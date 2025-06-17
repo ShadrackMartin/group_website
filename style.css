@@ -49,6 +49,11 @@
 			width: auto; /* Maintain aspect ratio */
 			background: transparent !important; /* Force no background */
 		}
+		
+		/* Navigation for mobile */
+		.menu-toggle { display: none; }
+		.nav-links { display: none; }
+		.menu-toggle:checked ~ .nav-links { display: flex; }
 
         .nav-links {
             display: flex;

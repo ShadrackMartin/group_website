@@ -250,6 +250,7 @@ main {
 
 .service-card {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	padding: 1.5rem;
 }
 
 .service-card:hover {
@@ -259,10 +260,22 @@ main {
 
 .about-card {
     background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+	padding: 1.5rem;
+}
+
+.about-card:hover {
+    transform: scale(1.05);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
 .project-card {
     background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+	padding: 1.5rem;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
 .ongoing-card {
@@ -272,15 +285,9 @@ main {
 
 .ongoing-card:hover {
     transform: scale(1.05);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
-.project-card:hover {
-    transform: scale(1.05);
-}
-
-.about-card:hover {
-    transform: scale(1.05);
-}
 
 /* Card Headings */
 .service-card h3,

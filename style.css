@@ -274,6 +274,14 @@ main {
     transform: scale(1.05);
 }
 
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.about-card:hover {
+    transform: scale(1.05);
+}
+
 /* Card Headings */
 .service-card h3,
 .about-card h3,

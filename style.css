@@ -107,7 +107,7 @@ nav {
     }
 
     .menu-toggle:checked ~ .nav-links {
-        max-height: 500px; /* Adjust based on your content */
+        max-height: 500px; 
         padding: 1rem 0;
     }
 
@@ -175,21 +175,40 @@ main {
 
 /* Sections */
 .section {
-    background: white;
-    margin: 2rem 0;
-    padding: 3rem 0;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
+            padding: 5rem 0;
+            margin: 0;
+        }
 
-.section h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: #00acf6;
-}
+        .section:nth-child(even) {
+            background: white;
+        }
 
-/* Cards Layout */
+        .section:nth-child(odd) {
+            background: #f8fafc;
+        }
+
+        .section h2 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 4rem;
+            color: #1e293b;
+            font-weight: 700;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background: #00acf6;
+            border-radius: 2px;
+        }
+
+/* Cards Section */
 .what-we-do,
 .about-grid,
 .projects-grid,

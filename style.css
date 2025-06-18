@@ -173,26 +173,6 @@ main {
     margin-bottom: 1rem;
 }
 
-.slide-nav {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 5px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-    display: inline-block;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.dot.active, .dot:hover {
-    background-color: white;
-}
-
 /* Sections */
 .section {
     background: white;

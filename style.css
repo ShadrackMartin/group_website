@@ -317,4 +317,14 @@ footer {
     .ongoing-grid {
         grid-template-columns: 1fr;
     }
+	
+	
+	.card {
+    width: 90%;       /* Take up most of the screen */
+    margin: 10px auto; /* Center the card with some space */
+  }
+
+  .section-container {
+    padding: 0 10px;   /* Reduce side padding if needed */
+  }
 }

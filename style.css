@@ -154,7 +154,12 @@ main {
 
 /* Sections */
 .section {
-            padding: 5rem;
+	/* mobile view edit */
+              width: 100%;
+  max-width: 100%;
+  padding: 0;
+		/* end	 */
+			padding: 5rem;
             margin: 0;
         }
 
@@ -318,7 +323,7 @@ footer {
         grid-template-columns: 1fr;
     }
 	
-	
+	/* new stuff for mobile viewing */
 	.card {
     width: 90%;       /* Take up most of the screen */
     margin: 10px auto; /* Center the card with some space */
